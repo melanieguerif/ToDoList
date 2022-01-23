@@ -1,0 +1,90 @@
+/* font-family: 'Caveat', cursive;
+font-family: 'Raleway', sans-serif; */
+*, ::after, ::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #131515;
+}
+h1{
+    font-family: 'Caveat', cursive;
+    font-size: 7em;
+    font-weight: 700;
+    color: #7DE2D1;
+    margin: 30px;
+    
+}
+.presentation{
+    background-color: #494B44;
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px;
+    font-weight: 400;
+    color: #FFFAFB;
+}
+.inputButton{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+#task{
+    border: none;
+    border-radius: 2px;
+    width: 60%;    
+    font-weight: 600;
+    font-size: 1.2em;
+    background-color: #FFFAFB;
+    color: #339989;
+}
+#button{
+    border:none;
+    margin-left: 15px;
+    border-radius: 2px;;
+    padding: 10px;
+    font-size: 1.1em;
+    font-weight: 700;
+    background-color: #339989;
+    color: #FFFAFB;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    padding-bottom: 80px;
+}
+li{
+    margin-bottom: 10px;
+    padding: 15px;
+    font-weight: 600;
+    font-size: 1em;
+    color: #FFFAFB;
+    background-color: #494B44;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+li button{
+    border-radius: 5px;
+   font-size: 1.3em;
+   font-weight: 400;
+   width: 30px;
+   height: 30px;
+   border:none;
+   background-color: #131515;
+   color: #FFFAFB;
+}
+.done{
+    text-decoration:line-through;
+    background-color: #339989;
+}
